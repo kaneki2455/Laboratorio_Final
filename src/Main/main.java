@@ -13,12 +13,10 @@ import java.util.List;
 public class main {
 
     public static void main(String[] args) {
-        // Creadores (Factory Method)
         CafeCreator creadorAmericano = new AmericanoCreator();
         CafeCreator creadorDoble = new DobleCreator();
         CafeCreator creadorMocca = new MoccaCreator();
 
-        // Simulación de una venta con distintos cafés y tamaños
         List<Cafe> pedido = new ArrayList<>();
         pedido.add(creadorAmericano.crearCafe(TamañoCafe.PEQUEÑO));
         pedido.add(creadorAmericano.crearCafe(TamañoCafe.GRANDE));
