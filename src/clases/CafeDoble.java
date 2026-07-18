@@ -2,10 +2,10 @@ package clases;
 
 import Clasesabstractas.Cafe;
 
-public class CafeAmericano extends Cafe {
+public class CafeDoble extends Cafe {
 
-    public CafeAmericano(TamañoCafe tamaño) {
-        super("Cafe Americano", 5.0, tamaño);
+    public CafeDoble(TamañoCafe tamaño) {
+        super("Cafe Doble", 7.0, tamaño);
     }
 
     @Override
